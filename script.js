@@ -19,7 +19,7 @@ function moveRandomEl(elm) {
   setTimeout(() => {
     elm.style.top = Math.floor(Math.random() * 50 + 25) + "%"; // Reduced randomness range
     elm.style.left = Math.floor(Math.random() * 50 + 25) + "%";
-  }, 300); // Delay movement by 300ms
+  }, 220); // Delay movement by 300ms
 }
 
 const moveRandom = document.querySelector("#move-random");
